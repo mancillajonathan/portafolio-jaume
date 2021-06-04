@@ -1,0 +1,30 @@
+.comment {
+    text-align: center;
+    padding-block-end: 40px;
+    padding-block-start: 40px;
+}
+
+.comment-description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.comment h1 {
+    font: var(--headline5);
+    margin: 0 0 24px 0;
+}
+
+.comment h1 span:nth-of-type(1) {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .comment {
+        padding-block-end: 200px;
+        padding-block-start: 200px;
+    }
+}
